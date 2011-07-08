@@ -13,7 +13,13 @@ import java.util.Set;
  */
 public interface Contact extends Item {
 
-	public String getCompanyName();
+	/**
+	 * Returns the name of the organization to which this {@link Contact} is
+	 * affiliated.
+	 * 
+	 * @return the organization name
+	 */
+	public String getOrganizationName();
 
 	/**
 	 * Returns the {@link ContactMethod}s for this {@link Contact}.

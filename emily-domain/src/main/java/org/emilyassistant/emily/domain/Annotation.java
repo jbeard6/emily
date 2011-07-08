@@ -11,6 +11,11 @@ package org.emilyassistant.emily.domain;
  */
 public interface Annotation {
 
+	/**
+	 * Returns the text of this {@link Annotation}.
+	 * 
+	 * @return the annotation text
+	 */
 	public String getText();
 
 }
