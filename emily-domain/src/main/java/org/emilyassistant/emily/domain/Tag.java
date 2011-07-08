@@ -10,14 +10,7 @@ import java.util.UUID;
  * @author joseph@josephbeard.net
  * 
  */
-public interface Tag {
-
-	/**
-	 * Returns the unique identifier of this {@link Tag}.
-	 * 
-	 * @return the unique identifier
-	 */
-	public UUID getId();
+public interface Tag extends Identified<UUID> {
 
 	/**
 	 * Returns the title of this {@link Tag}.
