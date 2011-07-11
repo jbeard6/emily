@@ -4,8 +4,10 @@
 package org.emilyassistant.emily.domain;
 
 /**
+ * Abstraction for a unique key that identifies an object.
+ * 
  * @author joseph@josephbeard.net
- *
+ * 
  */
 public interface Identified<T> {
 
