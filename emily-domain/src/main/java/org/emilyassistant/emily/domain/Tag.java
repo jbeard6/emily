@@ -7,6 +7,8 @@ import java.util.Set;
 import java.util.UUID;
 
 /**
+ * A {@link Tag} is an arbitrary metadata that may be applied to another object.
+ * 
  * @author joseph@josephbeard.net
  * 
  */

@@ -6,8 +6,11 @@ package org.emilyassistant.emily.domain;
 import java.util.Date;
 
 /**
+ * A {@link Scheduled} object is scheduled for a particular period or periods of
+ * time.
+ * 
  * @author joseph@josephbeard.net
- *
+ * 
  */
 public interface Scheduled {
 

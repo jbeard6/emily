@@ -6,8 +6,10 @@ package org.emilyassistant.emily.domain;
 import java.util.Date;
 
 /**
+ * A {@link Task} defines an action to be done.
+ * 
  * @author joseph@josephbeard.net
- *
+ * 
  */
 public interface Task extends ScheduledItem {
 
