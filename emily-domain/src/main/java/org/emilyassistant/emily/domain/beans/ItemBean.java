@@ -135,7 +135,7 @@ public class ItemBean implements Item, Serializable {
 			return false;
 		} else if (obj == this) {
 			return true;
-		} else if (obj.getClass() != ItemBean.class) {
+		} else if (obj.getClass() != getClass()) {
 			return false;
 		}
 

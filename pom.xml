@@ -25,6 +25,7 @@
 
 	<modules>
 		<module>emily-domain</module>
+		<module>emily-dao</module>
 	</modules>
 
 	<build>

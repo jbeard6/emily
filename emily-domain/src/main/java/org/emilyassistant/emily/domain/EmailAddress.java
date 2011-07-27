@@ -16,7 +16,7 @@ public interface EmailAddress extends ContactMethod {
 	/**
 	 * Returns the {@link InternetAddress} that represents the actual address.
 	 * 
-	 * @return the email internet address
+	 * @return the email Internet address
 	 */
 	public InternetAddress getInternetAddress();
 

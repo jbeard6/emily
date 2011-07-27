@@ -41,7 +41,7 @@ public interface Email extends Item {
 	 * 
 	 * @return the email recipients
 	 */
-	public Collection<Contact> getRecipients();
+	public Collection<EmailAddress> getRecipients();
 
 	/**
 	 * Returns the subset of {@link #getRecipients() recipients} that are the
@@ -49,7 +49,7 @@ public interface Email extends Item {
 	 * 
 	 * @return the primary recipients
 	 */
-	public Collection<Contact> getPrimaryRecipients();
+	public Collection<EmailAddress> getPrimaryRecipients();
 
 	/**
 	 * Returns the subset of {@link #getRecipients() recipients} that are copied
@@ -57,7 +57,7 @@ public interface Email extends Item {
 	 * 
 	 * @return the copied recipients
 	 */
-	public Collection<Contact> getCopiedRecipients();
+	public Collection<EmailAddress> getCopiedRecipients();
 
 	/**
 	 * Returns the subset of {@link #getRecipients() recipients} that are blind
@@ -65,7 +65,7 @@ public interface Email extends Item {
 	 * 
 	 * @return the blind copied recipients
 	 */
-	public Collection<Contact> getBlindCopiedRecipients();
+	public Collection<EmailAddress> getBlindCopiedRecipients();
 
 	/**
 	 * Returns the {@link Email} to which this {@link Email} is a response.
