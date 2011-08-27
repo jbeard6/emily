@@ -18,7 +18,9 @@ import java.util.UUID;
 public interface Attribute<T> extends Identified<UUID> {
 
 	/**
-	 * The type of {@link Attribute}.
+	 * Returns the {@link AttributeType} of this {@link Attribute}.
+	 * 
+	 * @return the attribute type
 	 */
 	public AttributeType getType();
 

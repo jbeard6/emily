@@ -3,7 +3,8 @@
  */
 package org.emilyassistant.emily.domain;
 
-import java.util.Set;
+import java.util.Collection;
+import java.util.UUID;
 
 /**
  * An abstraction for a type of {@link Element}.
@@ -11,7 +12,7 @@ import java.util.Set;
  * @author joseph@josephbeard.net
  * 
  */
-public interface ElementType {
+public interface ElementType extends Identified<UUID> {
 
 	/**
 	 * Returns the name of this {@link ElementType}.
@@ -26,6 +27,6 @@ public interface ElementType {
 	 * 
 	 * @return the common types of attributes for this type of element
 	 */
-	public Set<AttributeType> getAttributeTypes();
+	public Collection<AttributeType> getAttributeTypes();
 
 }

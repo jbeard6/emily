@@ -3,8 +3,8 @@
  */
 package org.emilyassistant.emily.domain;
 
+import java.util.Collection;
 import java.util.Date;
-import java.util.Set;
 import java.util.UUID;
 
 /**
@@ -20,7 +20,7 @@ public interface Element extends Identified<UUID> {
 	 * 
 	 * @return the element type
 	 */
-	public ElementType getElementType();
+	public ElementType getType();
 
 	/**
 	 * Returns the subject of this {@link Element}.
@@ -49,6 +49,6 @@ public interface Element extends Identified<UUID> {
 	 * 
 	 * @return the related elements
 	 */
-	public Set<Element> getRelatedElements();
+	public Collection<Element> getRelatedElements();
 
 }
